@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+<div class="nav-section">
+    <div class="logo-slogano">
+        <div><img src="./media/logo-website.svg" alt="" ></div>
+        <div><h3 id="slogano">Your Only Music Stop!</h3></div>
+    </div>
+    <div>
+        <h2 id="i-audio">i-audio</h2>
+    </div>
+    <input type="search" placeholder="search" id="search-input">
+</div>
+<div class="two-divs">
+    <div class="first-div">
+        <div class="playlist-section">
+            <div>
+                <img src="./media/playlist.png" alt="playlist" id="playlist">
+            </div>
+            <div>
+                <img src="./media/add-track.png" alt="add track" id="play">
+            </div>
+        </div>
+        <div class="track-cover">
+        </div>
+            <div class="icons">
+                <div>
+                    <img src="./media/shiffle.png" alt="shiffle" id="shuffle">
+                </div>
+                <div>
+                    <img src="./media/prev.png" alt="previous song" id="previous">
+                </div>
+                <div>
+                    <img src="./media/play.png" alt="play" id="play">
+                </div>
+                <div>
+                    <img src="./media/next.png" alt="next song" id="next">
+                </div>
+                <div>
+                    <img src="./media/repeat.png" alt="repeat song" id="repeat">
+                </div>
+            </div>
+          <!-- Volume and song timer -->
+          <div class="track-details">
+            <div>
+                <h2 id="track-artist">Track Artist</h2>
+            </div>
+            <div>
+                <h3 id="track-name">Track Name</h3>
+              </div>
+          </div>
+            <div class="song-timer">
+                <div id="current-time">00:00</div>
+                <input type="range" min="1" max="100" value="0">
+                <div class="total-duration">00:00</div>
+            </div>
+            <div class="volume-slider">
+                <img src="./media/low-volume.png" alt="low-volume" id="low-volume">
+                <input type="range" min="0" max="100" value="99" id="volume-slider">
+                <img src="./media/high-volume.png" alt="high volume" id="high-volume">
+            </div>
+<!-- End of songtimer and volume -->
+    </div>
+    <div class="second-div">
+        <div class="music-divs">
+            <div class="music-cover">
+            </div>
+            <div class="music-coverr">
+            </div>
+        </div>
+        <div class="music-divs">
+            <div class="music-coverrr">
+            </div>
+            <div class="music-coverrrr">
+            </div>
+        </div>
+        <div class="music-divs">
+            <div class="music-coverrrrr">
+            </div>
+            <div class="music-coverrrrrr">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+<nav class="nav-foot">
+    <div>
+        <a href="#" class="nav-footer" >About Us</a>
+    </div>
+   <div>
+    <a href="#" class="nav-footer">Follow Us</a>
+   </div>
+   <div>
+    <a href="#" class="nav-footer">Privacy Policy</a>
+    <p>Terms and Conditions</p>
+   </div>
+</nav>
+<div class="foot-icons">
+    <div>
+        <img src="./media/tweet.png" alt="" id="footer-icon">
+    </div>
+    <div>
+        <img src="./media/facebook.png" alt="" id="footer-icon">
+    </div>
+    <div>
+        <img src="./media/linkedin.png" alt="" id="footer-icon">
+    </div>
+</div>
+<!-- <img src="./media/copy-right.png" alt="" id="copy-right"> -->
+<p id="copy-right">copy-right&#169;i-audio2024</p>
+</div>
+</body>
+</html>

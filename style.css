@@ -1,0 +1,568 @@
+body{
+    background-color: rgb(196, 196, 254);
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 100px;
+        margin-top: 0%;
+        width: 10px;
+    }
+    #logo{
+        width: 500px;
+        height: 500px;
+    }
+    .logo-slogano{
+        margin-left: 10%;
+        gap: 0px;
+        margin-top: 0%;
+    }
+    #i-audio{
+        font-size: 70px;
+        padding: 0%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #slogano{
+    margin-top: 0%;
+    }
+    .nav-section{
+        height: 200px;
+        width: 1800px;
+        border: 5px solid black;
+        border-radius: 10px;
+        background-color: rgb(240, 179, 8);
+        padding-left: 0%;
+        display: flex;
+        flex-direction: row;
+        gap: 500px;
+    }
+    .first-div{
+        height: 900px;
+        border: 2px solid black;
+        width: 37%;
+        margin-left: 1%;
+        border-radius: 10px;
+        background-color: rgb(240, 179, 8);
+    }
+    .second-div{
+        height: 900px;
+        border: 2px solid black;
+        width: 60%;
+        border-radius: 10px;
+        background-color: rgb(240, 179, 8);
+    }
+    .two-divs{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    .music-cover{
+        height: 300px;
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 10px;
+        margin: 15%;
+        margin-bottom: 0%;
+        padding-top: 20%;
+        background-image: url('media/brown1.jpg');
+        background-size: contain;
+    }
+    .music-coverr{
+        height: 300px;
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 10px;
+        margin: 15%;
+        margin-bottom: 0%;
+        padding-top: 20%;
+        background-image: url('media/camela2.webp');
+        background-size: contain;
+    }
+    .music-coverrr{
+        height: 300px;
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 10px;
+        margin: 15%;
+        margin-bottom: 0%;
+        padding-top: 20%;
+        background-image: url('media/fally1.jpg');
+        background-size: contain;
+    }
+    .music-coverrrr{
+        height: 300px;
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 10px;
+        margin: 15%;
+        margin-bottom: 0%;
+        padding-top: 20%;
+        background-image: url('media/dadju1.jpg');
+        background-size: contain;
+    }
+    .music-coverrrrr{
+        height: 300px;
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 10px;
+        margin: 15%;
+        margin-bottom: 0%;
+        padding-top: 20%;
+        background-image: url('media/count1.webp');
+        background-size: contain;
+    }
+    .music-coverrrrrr{
+        height: 300px;
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 10px;
+        margin: 15%;
+        margin-bottom: 0%;
+        padding-top: 20%;
+        background-image: url('media/count2.webp');
+        background-size: contain;
+    }
+    .second-div{
+        display: flex;
+        gap: 50px;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+    #search-input{
+        /* border: #121111;
+        height: 50px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left: 80%;
+        margin-top: 0%;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #121111; */
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 5%;
+    }
+    .icons{
+        display: flex;
+        margin-top: 20%;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 15%;
+    }
+    #shuffle{
+        width: 50px;
+        height: 50px;
+    }
+    #previous{
+        width: 50px;
+        height: 50px;
+    }
+    #play{
+        width: 50px;
+        height: 50px;
+    }
+    #next{
+        width: 50px;
+        height: 50px;
+    }
+    #repeat{
+        width: 50px;
+        height: 50px;
+    }
+    #playlist{
+        width: 50px;
+        height: 50px;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .playlist-section{
+        display: flex;
+        gap: 500px;
+        justify-content: space-between;
+        margin: 5%;
+    }
+    .add-track{
+        width: 50px;
+        height: 50px;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .song-timer{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 4%;
+    }
+    #low-volume{
+        width: 45px;
+        height: 45px;
+    }
+    #high-volume{
+        width: 50px;
+        height: 50px;
+    }
+    .volume-slider{
+        display: flex;
+        height: 10px;
+        margin-top: 5%;
+        margin-left: 34%;
+        margin-bottom: 15%;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .track-details{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #track-artist{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .track-cover{
+        border: 2px solid black;
+        border-radius: 200px;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        margin-left: 30%;
+    }
+    #play{
+        width: 60px;
+        height: 60px;
+    }
+    .footer{
+        background-color: #121111;
+        height: 300px;
+        width: 1800px;
+        border: 5px solid black;
+        border-radius: 10px;
+        margin: 10px;
+        margin-top: 3%;
+        background-color: rgb(240, 179, 8);
+        }
+    .nav-footer{
+       margin-left: 17%;
+       text-decoration: none;
+        font-size: xx-large;
+        font-weight: 900;
+        color: #121111;
+    }
+    #about-us-p{
+    }
+    .nav-foot{
+        display: flex;
+        /* justify-content: center; */
+        justify-content: space-around;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .foot-icons{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding: 0px;
+    }
+    #footer-icon{
+        width: 50px;
+        height: 50px;
+    }body{
+    background-color: rgb(196, 196, 254);
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 100px;
+        margin-top: 0%;
+        width: 10px;
+    }
+    #logo{
+        width: 500px;
+        height: 500px;
+    }
+    .logo-slogano{
+        margin-left: 10%;
+        gap: 0px;
+        margin-top: 0%;
+    }
+    #i-audio{
+        font-size: 70px;
+        padding: 0%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #slogano{
+    margin-top: 0%;
+    }
+    .nav-section{
+        height: 200px;
+        width: 1800px;
+        border: 5px solid black;
+        border-radius: 10px;
+        background-color: rgb(240, 179, 8);
+        padding-left: 0%;
+        display: flex;
+        flex-direction: row;
+        gap: 500px;
+    }
+    .first-div{
+        height: 900px;
+        border: 2px solid black;
+        width: 37%;
+        margin-left: 1%;
+        border-radius: 10px;
+        background-color: rgb(240, 179, 8);
+    }
+    .second-div{
+        height: 900px;
+        border: 2px solid black;
+        width: 60%;
+        border-radius: 10px;
+        background-color: rgb(240, 179, 8);
+    }
+    .two-divs{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    .music-cover{
+        height: 300px;
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 10px;
+        margin: 15%;
+        margin-bottom: 0%;
+        padding-top: 20%;
+        background-image: url('media/brown2.jpg');
+        background-size: contain;
+    }
+    .music-coverr{
+        height: 300px;
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 10px;
+        margin: 15%;
+        margin-bottom: 0%;
+        padding-top: 20%;
+        background-image: url('media/count3.webp');
+        background-size: contain;
+    }
+    .music-coverrr{
+        height: 300px;
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 10px;
+        margin: 15%;
+        margin-bottom: 0%;
+        padding-top: 20%;
+        background-image: url('media/dadju&fally.jpg');
+        background-size: contain;
+    }
+    .music-coverrrr{
+        height: 300px;
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 10px;
+        margin: 15%;
+        margin-bottom: 0%;
+        padding-top: 20%;
+        background-image: url('media/ayar3.webp');
+        background-size: contain;
+    }
+    .music-coverrrrr{
+        height: 300px;
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 10px;
+        margin: 15%;
+        margin-bottom: 0%;
+        padding-top: 20%;
+        background-image: url('media/camila3.jpg');
+        background-size: contain;
+    }
+    .music-coverrrrrr{
+        height: 300px;
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 10px;
+        margin: 15%;
+        margin-bottom: 0%;
+        padding-top: 20%;
+        background-image: url('media/fally2.webp');
+        background-size: contain;
+    }
+    .second-div{
+        display: flex;
+        gap: 50px;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+    #search-input{
+        /* border: #121111;
+        height: 50px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left: 80%;
+        margin-top: 0%;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #121111; */
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 5%;
+    }
+    .icons{
+        display: flex;
+        margin-top: 20%;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 15%;
+    }
+    #shuffle{
+        width: 50px;
+        height: 50px;
+    }
+    #previous{
+        width: 50px;
+        height: 50px;
+    }
+    #play{
+        width: 50px;
+        height: 50px;
+    }
+    #next{
+        width: 50px;
+        height: 50px;
+    }
+    #repeat{
+        width: 50px;
+        height: 50px;
+    }
+    #playlist{
+        width: 50px;
+        height: 50px;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .playlist-section{
+        display: flex;
+        gap: 400px;
+        justify-content: space-between;
+        margin: 5%;
+    }
+    .add-track{
+        width: 50px;
+        height: 50px;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .song-timer{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 4%;
+    }
+    #low-volume{
+        width: 45px;
+        height: 45px;
+    }
+    #high-volume{
+        width: 50px;
+        height: 50px;
+    }
+    .volume-slider{
+        display: flex;
+        height: 10px;
+        margin-top: 5%;
+        margin-left: 34%;
+        margin-bottom: 15%;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .track-details{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #track-artist{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .track-cover{
+        border: 2px solid black;
+        border-radius: 200px;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        margin-left: 30%;
+    }
+    #add-track{
+        width: 60px;
+        height: 60px;
+    }
+    .footer{
+        background-color: #121111;
+        height: 300px;
+        width: 1800px;
+        border: 5px solid black;
+        border-radius: 10px;
+        margin: 10px;
+        margin-top: 3%;
+        background-color: rgb(240, 179, 8);
+        }
+    .nav-footer{
+       margin-left: 17%;
+       text-decoration: none;
+        font-size: xx-large;
+        font-weight: 900;
+        color: #121111;
+    }
+    #about-us-p{
+    }
+    .nav-foot{
+        display: flex;
+        /* justify-content: center; */
+        justify-content: space-around;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .foot-icons{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding: 0px;
+    }
+    #footer-icon{
+        width: 50px;
+        height: 50px;
+    }
+    #copy-right{
+        font-size: 25px;
+        padding-left: 42%;
+        color: #566573;
+        padding-top: 1%;
+    }
+
+
+
+
+
+
+
+
+
+
+
